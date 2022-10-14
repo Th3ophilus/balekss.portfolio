@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c1f09642af.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="contacts">
+        <div class="nav">
+            <div class="logo"><p>BP</p><h5>BaleksPeter</h5></div>
+          
+            <i class="fa-solid fa-bars fa-2x hamburger"  id="hamburger"></i>
+          
+            <div class="nav-menu" id="nav-menu">
+              <a href="./index.html" class="nav-links" id="nav-links">Home</a>
+              <a href="./aboutus.html" class="nav-links" id="nav-links">About Us</a>
+              <a href="./services.html" class="nav-links" id="nav-links">Services</a>
+              <a href="./contact.html" class="nav-links" id="nav-links">Contact</a>
+          
+            </div>
+          </div>
+
+
+          <div class="contact-text">
+            <p>Contact</p>
+            <h4>We would love to hear from you.</h4>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, earum cum necessitatibus repellat est sint similique mollitia itaque quo? Possimus aut nisi eum vel incidunt quos error laboriosam et! Quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum laborum nihil porro, iure sapiente deleniti excepturi beatae a voluptas adipisci provident quae culpa quidem cupiditate repudiandae illo maiores libero aliquid.</h3>
+          </div>
+          <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
